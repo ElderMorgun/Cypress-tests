@@ -1,0 +1,19 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "npx cypress open",
+    "cy:test": "cypress open --config-file test-config.json",
+    "cy:test:run": "cypress run --config-file test-config.json --spec \"cypress/integration/*.spec.js\"",
+    "cy:test:rec": "cypress run --config-file test-config.json --group automationpractice --spec \"cypress/integration/*.spec.js\" --record --key ae5ec670-4e9c-490d-aae4-437134169033"
+  },
+  "author": "Vitali Morgun",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^5.2.0",
+    "cypress-failed-log": "^2.7.0",
+    "cypress-image-snapshot": "^3.1.1"
+  }
+}

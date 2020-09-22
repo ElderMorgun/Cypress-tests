@@ -1,0 +1,14 @@
+{
+  "specName": "account_creation.spec.js",
+  "title": "Check the creation form visually",
+  "suiteName": "Check the full creation form",
+  "testId": "r14",
+  "testName": "Account creation test Check the full creation form Check the creation form visually",
+  "testError": "Timed out retrying: `cy.its()` errored because the property: `user[1]` does not exist on your subject.\n\n`cy.its()` waited for the specified property `user[1]` to exist, but it never did.\n\nIf you do not expect the property `user[1]` to exist, then add an assertion such as:\n\n`cy.wrap({ foo: 'bar' }).its('quux').should('not.exist')`\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Check the full creation form`",
+  "testCommands": [
+    "visit /index.php?controller=authentication&back=my-account",
+    "get .navigation_page",
+    "assert expected **<span.navigation_page>** to contain text **Authentication**",
+    "its .user[1]"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "projectId": "61k91e",
+    "baseUrl": "http://automationpractice.com",
+    "env": {
+        "host": "http://automationpractice.com",
+        "db": {
+
+        }
+    },
+    "ignoreTestFiles": "*.feature.js",
+    "videosFolder": "cypress/videos",
+    "video": false,
+    "trashAssetsBeforeRuns": true,
+    "animationDistanceThreshold": 3,
+    "waitForAnimations": true,
+    "experimentalSourceRewriting": true
+}

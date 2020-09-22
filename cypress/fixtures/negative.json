@@ -1,0 +1,8 @@
+{
+    "emails": {
+        "withoutTopDomain":"hello@cypress",
+        "withoutDomain":"hello@.io",
+        "without@symbol":"hellocypress.io",
+        "withSpaces":"h   el  lo@ cy pre ss.  io"
+    }
+}
